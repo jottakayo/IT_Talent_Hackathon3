@@ -26,13 +26,16 @@ Para completar o hackathon, aqui estão as imagens e links:
 ### Atividade 1: SonarQube
 
 1. ![Print dos resultados do escaneamento do SonarQube](img/1.png)
-2. ![Print adicional do escaneamento](link_para_imagem_2)
-3. ![Print do token gerado](link_para_imagem_3)
+2. ![Print adicional do escaneamento](img/2.png)
+3. ![Print do token gerado](img/3.png)
 
 ### Atividade 2: CI/CD com GitHub Actions e AWS
 
-1. ![Print do ID do recurso S3 no Console AWS](link_para_imagem_4)
-2. ![Print do link público acessando o build](link_para_imagem_5)
-3. [Link público para o build no S3](link_para_o_build)
+1. ![Print](img/5.png)
+2. ![Print](img/6.png)
+3. ![Print](img/7.png)
+2. ![Print](img/8.png)
+3. ![Print](img/9.png)
+3. ![Print](img/10.png)
 
 ---
