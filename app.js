@@ -4,6 +4,8 @@ import cors from "cors";
 import { getAluno, getAlunos, createAluno } from './database.js';
 import dotenv from 'dotenv';
 
+dotenv.config();
+
 const app = express();
 
 app.use(bodyParser.json());
@@ -25,7 +27,7 @@ app.get("/alunos", async (req, res, next) => {
         res.send(alunos);
     } catch (error) {
         console.error('Erro ao buscar alunos:', error);
-        next(error); // Passa o erro para o middleware de tratamento de erros
+        next(error); 
     }
 });
 
@@ -36,7 +38,7 @@ app.get("/aluno/:id", async (req, res, next) => {
         res.send(aluno);
     } catch (error) {
         console.error('Erro ao buscar aluno:', error);
-        next(error); // Passa o erro para o middleware de tratamento de erros
+        next(error);
     }
 });
 
@@ -47,11 +49,11 @@ app.post("/alunos", async (req, res, next) => {
         res.status(201).send(aluno);
     } catch (error) {
         console.error('Erro ao criar aluno:', error);
-        next(error); // Passa o erro para o middleware de tratamento de erros
+        next(error); 
     }
 });
 
-// Middleware de tratamento de erros
+
 app.use((err, req, res, next) => {
     res.status(500).json({
         message: 'Ocorreu um erro interno no servidor.',
@@ -59,6 +61,7 @@ app.use((err, req, res, next) => {
     });
 });
 
-app.listen(process.env.APP_PORT, () => {
+const APP_PORT = process.env.APP_PORT || 3000;
+app.listen(APP_PORT, () => {
     console.log(`O servidor está executando na porta ${APP_PORT}`);
 });
