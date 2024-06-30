@@ -1,6 +1,0 @@
-projectKey=Backend-IT_Talent
-serverUrl=http://localhost:9000
-serverVersion=10.3.0.82913
-dashboardUrl=http://localhost:9000/dashboard?id=Backend-IT_Talent
-ceTaskId=AZBk7QOgbToY9e91SmnU
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AZBk7QOgbToY9e91SmnU
