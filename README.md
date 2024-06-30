@@ -25,7 +25,7 @@ Para completar o hackathon, aqui estão as imagens e links:
 
 ### Atividade 1: SonarQube
 
-1. ![Print dos resultados do escaneamento do SonarQube](img/1)
+1. ![Print dos resultados do escaneamento do SonarQube](img/1.png)
 2. ![Print adicional do escaneamento](link_para_imagem_2)
 3. ![Print do token gerado](link_para_imagem_3)
 
